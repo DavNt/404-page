@@ -86,6 +86,7 @@ footer p {
 	}
 
 	footer p {
+		text-align: center;
 		margin-bottom: 42px;
 	}
 } 
