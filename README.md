@@ -38,20 +38,25 @@
 
 ![screenshot](./404screen.JPG?raw=true)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- Where can you see your demo?
 
-- Where can I see your demo?
    https://davn-404pg.netlify.app
-- What have you learned/improved?
+   
+- What have I learned/improved?
+
    Improved CSS and responsive design
-- Your wisdom? :)
+   
+- My wisdom? :)
+
    Experience is gained through doing something.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML & CSS](https://www.w3.org/standards/webdesign/htmlcss.html#:~:text=HTML%20(the%20Hypertext%20Markup%20Language,for%20a%20variety%20of%20devices.)
+- [HTML](https://www.w3schools.com/html/default.asp)
+
+- [CSS](https://www.w3schools.com/css/default.asp)
 
 ## Features
 
