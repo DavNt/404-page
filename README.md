@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://davn-404pg.netlify.app">
+    <a href="https://github.com/DavNt/404-page">
       Solution
     </a>
     <span> | </span>
