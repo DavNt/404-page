@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata|Montserrat|Space+Mono&display=swap');
+
+/* global style */
+header p {
+	font-family: 'Inconsolata', monospace;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 25px;
+	letter-spacing: -0.08em;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.error_info {
+	font-family: 'Space Mono', monospace;
+	font-style: normal;
+}
+
+.error_info h1 {
+	font-weight: bold;
+	letter-spacing: -0.035em;
+	color: #333333;
+}
+
+.error_info p {
+	font-weight: normal;
+	letter-spacing: -0.035em;
+	color: #4F4F4F;
+}
+
+#back_home {
+	height: 68px;
+	width: 216px;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 21px;
+	letter-spacing: -0.035em;
+	text-transform: uppercase;
+}
+
+footer p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #333333;
+	text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	header p {
+		margin-left: 24px;
+		margin-top: 20px;
+	}
+
+	img {
+		width: 240px;
+		height: 240px;
+		margin: 12px 12px 15px 12px;
+	}
+
+	.error_info h1 {
+		font-size: 48px;
+		line-height: 71px;
+		margin-left: 23px;
+		margin-right: 24px;
+		margin-top: 60px;
+	}
+
+	.error_info p {
+		font-size: 18px;
+		line-height: 27px;
+		margin-left: 23px;
+		margin-top: 30px;
+		margin-right: 24px;
+	}
+
+	#back_home {
+		margin-left: 23px;
+		margin-bottom: 100px;
+	}
+
+	footer p {
+		margin-bottom: 42px;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px) and (orientation:landscape) {
+	.error_body {
+		display: flex;
+	}
+
+	img {
+		margin-top: 70px;
+	}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+	header p {
+		margin-left: 77px;
+		margin-top: 40px;
+	}
+
+	.error_body {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	img {
+		width: 540px;
+		height: 450px;
+		margin-left: 77px;
+		margin-top: 200px;
+	}
+
+	.error_info h1 {
+		font-size: 64px;
+		line-height: 95px;
+		margin-left: 119px;
+		margin-top: 200px;
+		margin-bottom: 40px;
+	}
+
+	.error_info p {
+		font-size: 18px;
+		line-height: 27px;
+		margin-left: 119px;
+		margin-right: 270px;
+	}
+
+	#back_home {
+		margin-left: 119px;
+		margin-top: 90px;
+	}
+
+	footer p {
+		margin-top: 293px;
+		margin-bottom: 40px;
+	}
+} 
